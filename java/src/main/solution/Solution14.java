@@ -10,9 +10,11 @@ import java.util.ArrayList;
  * 9  10  11  12
  * 13 14 15 16
  * 则依次打印出数字1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.
+ *
+ * 其实就是一个转圈打印的函数，向右-->向下--->向左--->向上..遇见边界则换方向，向上遇见边界则全部缩小一圈
  */
 public class Solution14 {
     public ArrayList<Integer> printMatrix(int [][] matrix) {
-
+      return null;
     }
 }
