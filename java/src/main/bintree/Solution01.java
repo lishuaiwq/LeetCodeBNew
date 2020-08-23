@@ -1,4 +1,4 @@
-package main.solution;
+package main.bintree;
 
 /***
  * 输入一棵二叉搜索树，
@@ -6,7 +6,7 @@ package main.solution;
  * 要求不能创建任何新的结点，只能调整树中结点指针的指向。
  * 右子树指向上一级，左子树指向下一级
  */
-public class Solution20 {
+public class Solution01 {
 
     // 记录前一个节点
     private TreeNode prePhead;
@@ -26,7 +26,7 @@ public class Solution20 {
             prePhead = pRootOfTree;
         } else {
             prePhead.right = pRootOfTree;
-            pRootOfTree.left = firstNode;
+            pRootOfTree.left = pRootOfTree;
             // 更新当前的节点
             prePhead = pRootOfTree;
         }
@@ -43,6 +43,5 @@ public class Solution20 {
             this.val = val;
 
         }
-
     }
 }

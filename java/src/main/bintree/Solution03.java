@@ -1,4 +1,4 @@
-package main.solution;
+package main.bintree;
 
 /***
  * 输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。
@@ -14,7 +14,7 @@ package main.solution;
  * 否则就是有问题
  *
  */
-public class Solution17 {
+public class Solution03 {
     public boolean VerifySquenceOfBST(int [] sequence) {
 
         int size = sequence.length;
@@ -22,14 +22,23 @@ public class Solution17 {
 
         int i = 0;
         while(--size > 0){
-            while(sequence[i++] < sequence[size]);
-            while(sequence[i++] > sequence[size]);
-
+            while(sequence[i] < sequence[size]){
+                i++;
+            }
+            while(sequence[i] > sequence[size])
+            {
+                i++;
+            }
             if(i < size) return false;
-
             i = 0;
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+        int [] arr = {1,2,3,4,5};
+        Solution03 solution17 = new Solution03();
+        System.out.println(solution17.VerifySquenceOfBST(arr));
     }
 }

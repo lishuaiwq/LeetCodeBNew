@@ -1,4 +1,4 @@
-package main.solution;
+package main.linklist;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -12,7 +12,7 @@ import java.util.Map;
  *
  * 思路:采用哈希表存储
  */
-public class Solution19 {
+public class Solution01 {
 
     /***
      * 赋值随机链表

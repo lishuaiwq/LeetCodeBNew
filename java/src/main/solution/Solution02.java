@@ -13,7 +13,9 @@ import java.util.*;
 
 public class Solution02 {
 
+/*
         private static ArrayList<Integer> arrayList = new ArrayList<>();
+*/
 
     public  ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         //原创版本
@@ -24,11 +26,12 @@ public class Solution02 {
         arrayList.add(listNode.val);
         return arrayList;*/
 
-      if(listNode != null){
+/*      if(listNode != null){
           printListFromTailToHead(listNode.next);
           arrayList.add(listNode.val);
       }
-      return arrayList;
+      return arrayList;*/
+return null;
     }
 
     public static void main(String[] args) {
