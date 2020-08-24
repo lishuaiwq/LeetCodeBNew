@@ -1,4 +1,6 @@
-package main.solution;
+package main.array;
+
+import java.util.Stack;
 
 /***
  * 输入两个整数序列，第一个序列表示栈的压入顺序，
@@ -11,8 +13,20 @@ package main.solution;
  * 思路：
  * 设置辅助栈，压栈入栈顺序得数组和出栈顺序得比较
  */
-public class Solution15 {
+public class Solution04 {
     public boolean IsPopOrder(int [] pushA,int [] popA) {
-          return false;
+        if(pushA.length == 0 || popA.length == 0){
+            return false;
+        }
+        Stack<Integer> stack = new Stack<Integer>();
+        int index = 0;
+        for(int i=0;i<pushA.length;i++){
+            stack.push(pushA[i]);
+            while (!stack.empty() && stack.peek() == popA[index]){
+                stack.pop();
+                index++;
+            }
+        }
+        return stack.empty();
     }
 }

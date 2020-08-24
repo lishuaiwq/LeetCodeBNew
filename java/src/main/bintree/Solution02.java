@@ -1,7 +1,6 @@
 package main.bintree;
 
 import main.mode.TreeNode;
-import main.solution.Solution13;
 
 import java.util.ArrayList;
 

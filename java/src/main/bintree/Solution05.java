@@ -1,4 +1,4 @@
-package main.solution;
+package main.bintree;
 
 import java.util.Stack;
 
@@ -26,7 +26,7 @@ import java.util.Stack;
  */
 
 
-public class Solution13 {
+public class Solution05 {
     /**非递归写方**/
     public void Mirror(TreeNode root) {
         if(root == null){
