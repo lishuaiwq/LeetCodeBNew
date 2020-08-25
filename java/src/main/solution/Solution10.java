@@ -1,5 +1,7 @@
 package main.solution;
 
+import main.mode.ListNode;
+
 /***
  * 输入一个链表，反转链表后，输出新链表的表头。
  * 用三个指针就可以实现
@@ -7,15 +9,19 @@ package main.solution;
  */
 public class Solution10 {
     public ListNode ReverseList(ListNode head) {
-            return null;
-    }
-
-    public static class ListNode {
-        int val;
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode cur = head;
+        ListNode pre = null;
         ListNode next = null;
 
-        ListNode(int val) {
-            this.val = val;
+        while (cur != null){
+           next = cur.next;
+           cur.next = pre;
+           pre = cur;
+           cur = next;
         }
-    }
+        return pre;
+     }
 }
