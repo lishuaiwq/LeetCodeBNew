@@ -1,4 +1,4 @@
-package main.solution;
+package main.linklist;
 
 import main.mode.ListNode;
 
@@ -7,7 +7,7 @@ import main.mode.ListNode;
  * 用三个指针就可以实现
  *
  */
-public class Solution10 {
+public class Solution03 {
     public ListNode ReverseList(ListNode head) {
         if(head == null || head.next == null){
             return head;
