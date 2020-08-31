@@ -1,4 +1,4 @@
-package main.solution;
+package main.linklist;
 
 /***
  * 题目描述
@@ -7,8 +7,11 @@ package main.solution;
  * 思路1：快慢指针，快指针先走k-1步，然后慢指针和快指针一起走
  * 思路2：放在栈中，然后取栈中的元素
  */
-public class Solution09 {
+public class Solution04 {
     public ListNode FindKthToTail(ListNode head, int k) {
+        if(head == null || k <=0){
+            return null;
+        }
         ListNode fast = head;
         ListNode slow = head;
         int count = 1;
@@ -18,11 +21,14 @@ public class Solution09 {
             }
             fast = fast.next;
         }
+        if(k > count){
+            return null;
+        }
         return slow;
     }
 
     public static void main(String[] args) {
-        Solution09 solution09 = new Solution09();
+        Solution04 solution04 = new Solution04();
         ListNode listNode = new ListNode(1);
         ListNode listNode1 = new ListNode(2);
         ListNode listNode2 = new ListNode(3);
@@ -32,7 +38,7 @@ public class Solution09 {
         listNode1.next = listNode2;
         listNode2.next = listNode3;
         listNode3.next = listNode4;
-        System.out.println(solution09.FindKthToTail(listNode,5).val);
+        System.out.println(solution04.FindKthToTail(listNode,1).val);
 
     }
     public static class ListNode {

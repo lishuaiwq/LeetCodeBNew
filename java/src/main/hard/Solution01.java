@@ -1,4 +1,4 @@
-package main.solution;
+package main.hard;
 
 /**8
  *问题1：大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项（从0开始，第0项为0，第1项是1）。
@@ -13,7 +13,7 @@ package main.solution;
  *
  *
  */
-public class Solution06 {
+public class Solution01 {
     // 递归写法
     public int Fibonacci(int n) {
 
@@ -81,7 +81,7 @@ public class Solution06 {
      * @param args
      */
     public static void main(String[] args) {
-        Solution06 solution06 = new Solution06();
-        System.out.println(solution06.Fibonacci(6));
+        Solution01 solution01 = new Solution01();
+        System.out.println(solution01.Fibonacci(6));
     }
 }

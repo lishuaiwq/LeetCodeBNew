@@ -1,9 +1,9 @@
-package main.solution;
+package main.array;
 
 /**
  * 输入一个整数，输出该数32位二进制表示中1的个数。其中负数用补码表示。
  */
-public class Solution07 {
+public class Solution06 {
     public int NumberOf1(int n) {
         int count = 0;
         while (n != 0) {
@@ -67,15 +67,5 @@ public class Solution07 {
             n = n & (n - 1);
         }
         return count;
-    }
-    public static void main(String[] args) {
-        Solution07 solution07 = new Solution07();
-/*
-        System.out.println(solution07.NumberOf1(-5));;
-*/
-        System.out.println(solution07.NumberOf3(-5));
-        // 表示的是补码
-        char[]ch=Integer.toBinaryString(-5).toCharArray();
-        System.out.println(ch);
     }
 }
