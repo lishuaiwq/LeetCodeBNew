@@ -1,4 +1,4 @@
-package main.solution;
+package main.array;
 
 /**
  * 在一个二维数组中（每个一维数组的长度相同），
@@ -7,7 +7,7 @@ package main.solution;
  * 请完成一个函数，输入这样的一个二维数组和一个整数，
  * 判断数组中是否含有该整数。
  */
-public class Solution01 {
+public class Solution07 {
 
 
     private static boolean Find(int target, int[][] array) {
