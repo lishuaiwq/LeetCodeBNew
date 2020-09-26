@@ -1,55 +1,67 @@
 package main.array;
 
-import main.mode.TreeNode;
+import java.util.HashSet;
 
-import java.util.Queue;
-import java.util.concurrent.*;
-
-/**8
- *输入一棵二叉树，求该树的深度。
- * 从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，
- * 最长路径的长度为树的深度。
+/**
+ * 一个整型数组里除了两个数字之外，其他的数字都出现了两次。
+ * 请写程序找出这两个只出现一次的数字
+ * 思路：1.使用hashSet。将数字放进去，成功返回true，说明不存在，失败的话说明存在，并且移除hashSet中的元素，最后数组中留下的就是不重复的两个了
+ * 思路2：使用异或，相同的数字会消除，最后得到不同的两个人数字的异或结果。
+ * 找出这个数字中第一个不为1的位。然后根据这个位将数组再次分为两组即可
  */
 public class Solution10 {
-
-
-    /***
-     * 递归写法
-     * 思路：递归比较左右子树谁的结点多，则最后返回的就是谁，则就是二叉树的深度
-     * @param root
-     * @return
+    /**
+     * 方法1.使用HashSet
+     * @param array
+     * @param num1
+     * @param num2
      */
-    public int TreeDepth(TreeNode root) {
-      if(root == null){
-          return 0;
-      }
-      return Math.max(TreeDepth(root.left) + 1,TreeDepth(root.right) + 1);
+    public void FindNumsAppearOnce(int [] array,int num1[] , int num2[]) {
+           HashSet<Integer> hashSet = new HashSet<Integer>();
+           int index = 0;
+           for(int i = 0;i<array.length;i++){
+               if(hashSet.add(array[i])){
+                   hashSet.add(array[i]);
+               }else {
+                   hashSet.remove(array[i]);
+               }
+           }
+        Object[] objects = hashSet.toArray();
+        num1[0] = Integer.valueOf((Integer) objects[0]);
+        num1[0] = Integer.valueOf((Integer) objects[1]);
+
     }
 
     /**
-     * 非递归
-     * 思路：采用层序遍历的方法，每次将一次的结点消费完，并根据这一层继续入队。然后计数器+1
+     * 采用位运算
+     * @param array
+     * @param num1
+     * @param num2
      */
-    public int TreeDepthO1(TreeNode root) {
-        if(root == null){
-            return 0;
-        }
-        Queue<TreeNode> linkedBlockingQueue = new LinkedBlockingQueue<TreeNode>();
-        linkedBlockingQueue.offer(root);
-        int depth = 0;
-        while (!linkedBlockingQueue.isEmpty()){
-            depth ++ ;
-            for(int i = 0;i<linkedBlockingQueue.size();i++){
-                TreeNode poll = linkedBlockingQueue.poll();
-                if(poll.left !=null){
-                   linkedBlockingQueue.offer(poll.left);
-                }
-                if(poll.right != null){
-                    linkedBlockingQueue.offer(poll.right);
-                }
-            }
-        }
-        return depth;
+    public void FindNumsAppearOnceO2(int [] array,int num1[] , int num2[]) {
+         int num = 0;
+        for(int i = 0;i<array.length;i++){
+            num ^= array[i];
+       }
+       int count = 0;
+       for (;count < 32;count++){
+           if((num &1<<count) != 0){
+               break;
+           }
+       }
+       num1[0] = 0;
+       num2[0] = 0;
+       for(int i = 0;i<array.length;i++){
+           if((array[i]& 1 << count) == 0){
+               num1[0] ^= array[i];
+           }else {
+               num2[0] ^= array[i];
+           }
+       }
+
     }
 
+        public static void main(String[] args) {
+
+    }
 }

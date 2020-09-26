@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aadf3a6-2eaa-4b1a-8f39-6706ea8a9a4b" name="Default Changelist" comment="8_24_00_36">
-      <change afterPath="$PROJECT_DIR$/java/src/main/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/solution/PerSon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/array/Solution09.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/array/Solution09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/array/Solution08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/array/Solution10.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/bintree/Solution08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/array/Solution10$7.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,27 +47,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="181" />
+          <entry key="java" value="184" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="181" />
+          <entry key="JAVA" value="184" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="32" />
-          <entry key="java" value="7873" />
+          <entry key="java" value="8940" />
           <entry key="txt" value="23" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7873" />
+          <entry key="JAVA" value="8940" />
           <entry key="PLAIN_TEXT" value="55" />
           <entry key="XML" value="17" />
         </counts>
@@ -72,15 +76,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/main/array/Solution10.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/bintree/Solution08.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="-216">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#779#789#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/bintree/Solution09.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/main/array/Solution10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="e#515#524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/personSoft/jdk8/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -93,33 +127,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/personSoft/jdk8/src.zip!/java/util/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/personSoft/jdk8/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/personSoft/jdk8/src.zip!/java/util/concurrent/BlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -191,9 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/src/main/solution/Solution17.java" />
-        <option value="$PROJECT_DIR$/java/src/main/bintree/Solution17.java" />
-        <option value="$PROJECT_DIR$/java/src/main/bintree/Solution01.java" />
         <option value="$PROJECT_DIR$/java/src/main/solution/Solution16.java" />
         <option value="$PROJECT_DIR$/java/src/main/bintree/Solution16.java" />
         <option value="$PROJECT_DIR$/java/src/main/bintree/Solution04.java" />
@@ -241,6 +245,9 @@
         <option value="$PROJECT_DIR$/java/src/main/solution/PerSon.java" />
         <option value="$PROJECT_DIR$/java/src/main/solution/Test03.java" />
         <option value="$PROJECT_DIR$/java/src/main/array/Solution09.java" />
+        <option value="$PROJECT_DIR$/java/src/main/bintree/Solution10.java" />
+        <option value="$PROJECT_DIR$/java/src/main/bintree/Solution08.java" />
+        <option value="$PROJECT_DIR$/java/src/main/bintree/Solution09.java" />
         <option value="$PROJECT_DIR$/java/src/main/array/Solution10.java" />
       </list>
     </option>
@@ -275,10 +282,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -500,7 +507,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601044241406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601129271138" />
     <property name="last_opened_file_path" value="C:/personSoft/code/java_thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -527,13 +534,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test03">
+  <component name="RunManager" selected="Application.Solution10">
     <configuration name="PerSon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.solution.PerSon" />
       <module name="LeetCodeBNew" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.bintree.Solution08" />
+      <module name="LeetCodeBNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.bintree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,11 +622,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.PerSon" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Solution10" />
       </list>
     </recent_temporary>
   </component>
@@ -631,17 +651,18 @@
       <workItem from="1600179575292" duration="1236000" />
       <workItem from="1600181820279" duration="8238000" />
       <workItem from="1600356528957" duration="5004000" />
-      <workItem from="1600532009856" duration="35709000" />
+      <workItem from="1600532009856" duration="40593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190485000" />
+    <option name="totallyTimeSpent" value="195369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09115282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -650,14 +671,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.20738328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.03687943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4082519" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22584148" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.18892509" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -669,8 +690,8 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49726027" visible="true" weight="0.007995736" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5027397" side_tool="true" visible="true" weight="0.007995736" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49779087" visible="true" weight="0.01005362" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5022091" side_tool="true" visible="true" weight="0.01005362" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,27 +808,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/main/solution/Solution02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/solution/Solution05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/linklist/Solution04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/linklist/Solution05.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1232,13 +1232,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/array/Solution10.java">
+    <entry file="file://$PROJECT_DIR$/java/src/main/bintree/Solution08.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="-216">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#779#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/bintree/Solution09.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/personSoft/jdk8/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/array/Solution10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#515#524#0" expanded="true" />
           </folding>
         </state>
       </provider>
