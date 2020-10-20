@@ -1,7 +1,9 @@
 package main;
 
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
+import main.mode.ListNode;
+
+import java.util.*;
+import java.util.concurrent.*;
 
 public class Test {
     public static void main(String[] args) {
